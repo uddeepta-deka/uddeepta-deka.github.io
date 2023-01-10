@@ -1,9 +1,9 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Uddeepta Deka
+bio: A wanderer on the landscape of physics problems.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Personal website
 
 # if it's an external image, update below for true
 # better with square images
@@ -43,17 +43,11 @@ email: myemail@gmail.com
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Uddeepta Deka
+    bio: A wanderer on the landscape of physics problems.
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    twitter: uddeepta_
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
