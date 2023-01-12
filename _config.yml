@@ -16,9 +16,9 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: false
-resume-external: false
-resume-url: https://google.com/?q=my+resume
+resume: true
+resume-external: true
+resume-url: https://drive.google.com/file/d/17NyIMzbCiFSYkHgXk3JqFeUs27jThaF_/view?usp=sharing
 
 url: https://uddeepta-deka.github.io
 
