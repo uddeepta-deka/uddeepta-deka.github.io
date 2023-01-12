@@ -18,6 +18,12 @@
             <i class="fa-brands fa-instagram"></i>
         </a>
     {% endif %}
+    
+    {% if site.youtube %}
+        <a class="link" data-title="youtube.com/channel/{{ site.youtube }}" href="https://www.youtube.com/channel/{{ site.youtube }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    {% endif %}
 
     {% if site.linkedin %}
         <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
@@ -31,21 +37,15 @@
         </a>
     {% endif %}
 
+     {% if site.gitlab %}
+        <a class="link" data-title="gitlab.com{{ site.gitlab }}" href="https://gitlab.com/{{ site.gitlab }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-gitlab"></i>
+        </a>
+    {% endif %}
+    
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener">
             <i class="fa-regular fa-envelope"></i>
-        </a>
-    {% endif %}
-    
-    {% if site.youtube %}
-        <a class="link" data-title="youtube.com/channel/{{ site.youtube }}" href="https://www.youtube.com/channel/{{ site.youtube }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-youtube"></i>
-        </a>
-    {% endif %}
-    
-    {% if site.gitlab %}
-        <a class="link" data-title="gitlab.com{{ site.gitlab }}" href="https://gitlab.com/{{ site.gitlab }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-gitlab"></i>
         </a>
     {% endif %}
     
