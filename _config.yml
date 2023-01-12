@@ -34,25 +34,25 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+# facebook: https://www.facebook.com/uddeepta.deka/
+twitter: https://twitter.com/uddeepta_
+# instagram: myinstagram
+linkedin: https://www.linkedin.com/in/uddeepta-deka-833362a9/
+github: https://github.com/uddeepta-deka
+email: uddeepta.deka@icts.res.in
 
 authors:
-  johndoe:
+  uddeepta:
     name: Uddeepta Deka
     bio: A wanderer on the landscape of physics problems.
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: uddeepta_
+    email: uddeepta.deka@icts.res.in
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
