@@ -36,4 +36,29 @@
             <i class="fa-regular fa-envelope"></i>
         </a>
     {% endif %}
+    
+    {% if site.youtube %}
+        <a class="link" data-title="youtube.com/channel/{{ site.youtube }}" href="https://www.youtube.com/channel/{{ site.youtube }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    {% endif %}
+    
+    {% if site.gitlab %}
+        <a class="link" data-title="gitlab.com{{ site.gitlab }}" href="https://gitlab.com/{{ site.gitlab }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-gitlab"></i>
+        </a>
+    {% endif %}
+    
+    {% if site.scholar %}
+        <a class="link" data-title="scholar.google.com/citations?{{ site.scholar }}" href="https://scholar.google.com/citations?{{ site.scholar }}" target="_blank"  rel="noopener">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+    {% endif %}
+    
+    {% if site.researchgate %}
+        <a class="link" data-title="researchgate.net/profile/{{ site.researchgate }}" href="https://www.researchgate.net/profile/{{ site.researchgate }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-researchgate"></i>
+        </a>
+    {% endif %}
+    
 </div>
