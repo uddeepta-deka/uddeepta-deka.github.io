@@ -16,12 +16,11 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
-# your url: https://USERNAME.github.io
+url: https://uddeepta-deka.github.io
 
 permalink: /:title/
 
@@ -31,15 +30,26 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-# facebook: https://www.facebook.com/uddeepta.deka/
-twitter: https://twitter.com/uddeepta_
+facebook: uddeepta.deka
+twitter: uddeepta_
 # instagram: myinstagram
-linkedin: https://www.linkedin.com/in/uddeepta-deka-833362a9/
+linkedin: uddeepta-deka
 github: https://github.com/uddeepta-deka
 email: uddeepta.deka@icts.res.in
+
+# if you don't have any scientific social links below, comment the line
+# scholar: mygooglescholar
+# researchgate: myresearchgate
+# mendeley: mymendeley
+# pubmed: mypubmed
+# orcid: myorcid
+# impactstory: myimpactstory
+# figshare: myfigshare
+# slideshare: myslideshare
+# speakerdeck: myspeakerdeck
 
 authors:
   uddeepta:
@@ -70,13 +80,13 @@ about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
 # related posts inside a post?
-related: true
+related: false
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
