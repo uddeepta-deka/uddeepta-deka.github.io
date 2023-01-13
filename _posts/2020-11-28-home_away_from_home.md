@@ -18,7 +18,7 @@ externalLink: false
 
 <!-- wp:jetpack/layout-grid-column -->
 <div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none"><!-- wp:image {"align":"left","id":116,"width":833,"height":554,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image alignleft size-large is-resized"><img src="assets/blog_images/iss056e201046large.jpg" alt="" class="wp-image-116" width="833" height="554"/></figure>
+<figure class="wp-block-image alignleft size-large is-resized"><img src="/assets/blog_images/iss056e201046large.jpg" alt="" class="wp-image-116" width="833" height="554"/></figure>
 <!-- /wp:image -->
 
 <div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none"><!-- wp:paragraph {"style":{"typography":{"fontSize":15,"lineHeight":"1.6"}}} -->
