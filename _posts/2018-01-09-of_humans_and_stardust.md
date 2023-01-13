@@ -1,7 +1,7 @@
 ---
 title: "Of Humans and Stardust"
 layout: post
-date: 2018-01-09 08:30
+date: 2018-09-01 14:48
 tag: 
 - Stardust
 - Cosmos
