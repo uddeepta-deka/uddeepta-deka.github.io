@@ -2,10 +2,12 @@
 title: "A home away from home"
 layout: post
 date: 2020-11-28 22:10
-tag: jekyll
+tag: 
+- ISS
+- space science
 projects: true
-hidden: false # don't count this post in blog pagination
-description: "Just a test"
+hidden: false 
+description: "Post highlighting the importance and significance of the International Space Station for science."
 category: blog
 author: uddeepta
 externalLink: false
@@ -13,16 +15,17 @@ externalLink: false
 
 <!-- wp:jetpack/layout-grid {"column1DesktopSpan":3,"column1TabletSpan":3,"column1MobileSpan":4,"column2DesktopSpan":9,"column2TabletSpan":5,"column2MobileSpan":4,"column3DesktopOffset":15,"column3TabletOffset":3,"column3MobileOffset":2,"className":"alignfull column1-desktop-grid__span-3 column1-desktop-grid__row-1 column2-desktop-grid__span-9 column2-desktop-grid__start-4 column2-desktop-grid__row-1 column1-tablet-grid__span-3 column1-tablet-grid__row-1 column2-tablet-grid__span-5 column2-tablet-grid__start-4 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2"} -->
 <div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-3 column1-desktop-grid__row-1 column2-desktop-grid__span-9 column2-desktop-grid__start-4 column2-desktop-grid__row-1 column1-tablet-grid__span-3 column1-tablet-grid__row-1 column2-tablet-grid__span-5 column2-tablet-grid__start-4 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2"><!-- wp:jetpack/layout-grid-column -->
+
+<!-- wp:jetpack/layout-grid-column -->
+<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none"><!-- wp:image {"align":"left","id":116,"width":833,"height":554,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image alignleft size-large is-resized"><img src="/assets/blog_images/iss056e201046large.jpg" alt="" class="wp-image-116" width="833" height="554"/></figure>
+<!-- /wp:image -->
+
 <div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none"><!-- wp:paragraph {"style":{"typography":{"fontSize":15,"lineHeight":"1.6"}}} -->
 <p style="font-size:15px;line-height:1.6">The International Space Station photographed by Expedition 56 crew members from a Soyuz spacecraft after undocking, 2018. Courtesy: <a href="http://nasa.gov/">nasa.gov</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:jetpack/layout-grid-column -->
-
-<!-- wp:jetpack/layout-grid-column -->
-<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none"><!-- wp:image {"align":"left","id":116,"width":833,"height":554,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image alignleft size-large is-resized"><img src="https://cryptonum.files.wordpress.com/2020/11/iss056e201046large.jpg?w=1024" alt="" class="wp-image-116" width="833" height="554"/></figure>
-<!-- /wp:image -->
-
+    
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph --></div>
