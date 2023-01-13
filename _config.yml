@@ -74,7 +74,7 @@ pagination:
 about: true
 research: true
 blog: true
-non_academic: true
+miscellaneous: true
 
 # do you want to show the "read time" of the posts?
 read-time: false
