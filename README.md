@@ -1,4 +1,4 @@
-<p> creating static page for Uddeepta's personal website
+<p> Creating static page for my personal website
 </p>
 
 
