@@ -1,6 +1,6 @@
 # main text of home
 title: Uddeepta Deka
-bio: I study astrophysics and work on problems related to Gravitational Waves. 
+bio: I work towards charting the hidden landscapes of the universe through gravitational wave signals 
 
 # twitter summary info
 description: Personal website
@@ -75,7 +75,7 @@ about: true
 research: true
 resources: true
 blog: true
-miscellaneous: true
+miscellaneous: false
 
 # do you want to show the "read time" of the posts?
 read-time: false
