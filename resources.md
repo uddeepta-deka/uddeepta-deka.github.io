@@ -17,6 +17,7 @@ For people interested in Gravitational Wave (GW) astrophysics:
 - Emanuele Berti's [list of must-read papers](https://pages.jh.edu/eberti2/posts/must-read-paper-list/).
 
 On Gravitational Lensing:
+- [Gravitational Lenses](https://link.springer.com/book/10.1007/978-3-662-03758-4) by Schneider, Ehlers and Falco.
 - [Lecture notes](https://arxiv.org/pdf/astro-ph/9606001.pdf) by Narayan and Bartelmann.
 - Massimo Meneghetti's [lecture notes](http://pico.oabo.inaf.it/~massimo/teaching.html).
 
