@@ -15,6 +15,12 @@ My current works on microlenisng (diffraction) effects of gravitational lensing 
 
 - **U. Deka**, G. Prabhu, M.A. Shaikh, S.J. Kapadia
       *Surrogate modeling of gravitational waves microlensed by spherically symmetric potentials*. (draft in preparation)
+
+- **U. Deka**, A. Ganguly, S. Bhattacharyya
+      *Constraints on fraction of compact dark matter using microlensing of gravitational waves: inclusion of astrophysical lens models*. (draft in preparation)
+
+- G. Prabhu, **U. Deka**, S. Chakraborty, S.J. Kapadia
+      *Probing the spin of black holes using gravitational microlensing of gravitational waves*. (work in progress)
   
 Before delving into the world of GWs, I spent some time working with Dr. Sushan Konar, 
 at NCRA-TIFR, Pune, on _nulling pulsars_. The published work can be found here:
