@@ -9,12 +9,12 @@ work revolves around the Gravitational Lensing of Gravitational Waves (GWs).
      
 My current works on microlenisng (diffraction) effects of gravitational lensing of GWs are listed here: 
 
+- **U. Deka**, G. Prabhu, M.A. Shaikh, S.J. Kapadia, V. Varma, S. E. Field
+      *Surrogate modeling of gravitational waves microlensed by spherically symmetric potentials*. [arXiv, 2025](https://arxiv.org/abs/2501.02974v1).
+  
 - **U. Deka**, S. Chakraborty, S.J. Kapadia, M.A. Shaikh, P. Ajith
       *Probing black hole charge with gravitational microlensing of gravitational waves*. 
       [arXiv, 2024](https://arxiv.org/abs/2401.06553).
-
-- **U. Deka**, G. Prabhu, M.A. Shaikh, S.J. Kapadia, V. Verma, S. E. Field
-      *Surrogate modeling of gravitational waves microlensed by spherically symmetric potentials*. [arXiv, 2025](https://arxiv.org/abs/2501.02974v1).
 
 - **U. Deka**, A. Ganguly, S. Bhattacharyya
       *Constraints on fraction of compact dark matter using microlensing of gravitational waves: inclusion of astrophysical lens models*. (draft in preparation)
