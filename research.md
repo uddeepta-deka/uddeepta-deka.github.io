@@ -10,7 +10,7 @@ work revolves around the Gravitational Lensing of Gravitational Waves (GWs).
 My current works on microlenisng (diffraction) effects of gravitational lensing of GWs are listed here: 
 
 - **U. Deka**, G. Prabhu, M.A. Shaikh, S.J. Kapadia, V. Varma, S. E. Field \
-      *Surrogate modeling of gravitational waves microlensed by spherically symmetric potentials*. [arXiv, 2025](https://arxiv.org/abs/2501.02974v1).
+      *Surrogate modeling of gravitational waves microlensed by spherically symmetric potentials*. [arXiv, 2025](https://arxiv.org/abs/2501.02974v1). (Accepted for publication in PRD)
   
 - **U. Deka**, S. Chakraborty, S.J. Kapadia, M.A. Shaikh, P. Ajith \
       *Probing charge of compact objects with gravitational microlensing of gravitational waves*. 
