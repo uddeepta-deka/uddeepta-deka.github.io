@@ -13,7 +13,8 @@ My current works on microlenisng (diffraction) effects of gravitational lensing 
       *Surrogate modeling of gravitational waves microlensed by spherically symmetric potentials*. [arXiv, 2025](https://arxiv.org/abs/2501.02974v1). (Accepted for publication in PRD)
   
 - **U. Deka**, S. Chakraborty, S.J. Kapadia, M.A. Shaikh, P. Ajith \
-      *Probing charge of compact objects with gravitational microlensing of gravitational waves*. 
+      *Probing charge of compact objects with gravitational microlensing of gravitational waves*.
+      [Phys Rev D, 2025](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.064028),
       [arXiv, 2024](https://arxiv.org/abs/2401.06553).
 
 - **U. Deka**, A. Ganguly, S. Bhattacharyya \
