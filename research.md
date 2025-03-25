@@ -17,7 +17,7 @@ My current works on microlenisng (diffraction) effects of gravitational lensing 
       [Phys Rev D, 2025](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.064028),
       [arXiv, 2024](https://arxiv.org/abs/2401.06553).
 
-- **U. Deka**, A. Ganguly, S. Bhattacharyya \
+- **U. Deka**, A. Ganguly, S. Bhattacharyya, P. Ajith \
       *Constraints on fraction of compact dark matter using microlensing of gravitational waves: inclusion of astrophysical lens models*. (draft in preparation)
 
 - G. Prabhu, **U. Deka**, S. Chakraborty, S.J. Kapadia \
