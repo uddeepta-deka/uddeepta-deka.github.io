@@ -6,7 +6,7 @@ layout: page
 
 Hi, I’m Uddeepta! Thanks for visiting my corner of the web—here’s a little about me.
 
-I’m a passionate physicist currently pursuing my Ph.D. at the [International Centre for Theoretical Sciences (ICTS-TIFR)](https://icts.res.in/), under the guidance of [Prof. Parameswaran Ajith](https://home.icts.res.in/~ajith/Home.html). My research lies at the intersection of theoretical physics, computational modeling, and data analysis, unraveling some of the most profound mysteries of the universe.
+I’m a passionate physicist having recently completed my Ph.D. at the [International Centre for Theoretical Sciences (ICTS-TIFR)](https://icts.res.in/), under the guidance of [Prof. Parameswaran Ajith](https://home.icts.res.in/~ajith/Home.html). My research lies at the intersection of theoretical physics, computational modeling, and data analysis, unraveling some of the most profound mysteries of the universe.
 
 I hail from Doomdooma, a small yet culturally rich town in Tinsukia, Assam. My academic journey began with a bachelor's degree in Physics from Ramjas College, University of Delhi, followed by a master's degree in Physics and Astrophysics from the University of Delhi. I later moved to ICTS to pursue my Ph.D. and delve deeper into the fascinating world of gravitational wave astrophysics.
 
