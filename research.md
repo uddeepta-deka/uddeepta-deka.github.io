@@ -9,6 +9,10 @@ work revolves around the Gravitational Lensing of Gravitational Waves (GWs).
      
 My current works on microlenisng (diffraction) effects of gravitational lensing of GWs are listed here: 
 
+- G. Prabhu, **U. Deka**, S. Chakraborty, S.J. Kapadia \
+      *Probing the spin of compact objecst with gravitational microlensing of gravitational waves*.
+      [arXiv, 2512.18707, 2025](https://arxiv.org/abs/2512.18707).
+
 - **U. Deka**, G. Prabhu, M.A. Shaikh, S.J. Kapadia, V. Varma, S. E. Field \
       *Surrogate modeling of gravitational waves microlensed by spherically symmetric potentials*.
       [Phys. Rev. D, 111.104042, 2025](https://journals.aps.org/prd/pdf/10.1103/PhysRevD.111.104042),
@@ -19,12 +23,17 @@ My current works on microlenisng (diffraction) effects of gravitational lensing 
       [Phys. Rev. D, 111.064028, 2025](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.064028),
       [arXiv, 2401.06553, 2024](https://arxiv.org/abs/2401.06553).
 
-- **U. Deka**, A. Ganguly, S. Bhattacharyya, P. Ajith \
-      *Constraints on fraction of compact dark matter using microlensing of gravitational waves: inclusion of astrophysical lens models*. (draft in preparation)
+As part of the LIGO-Virgo-KAGRA (LVK) collaboration, I have contributed to the following works:
 
-- G. Prabhu, **U. Deka**, S. Chakraborty, S.J. Kapadia \
-      *Probing the spin of black holes using gravitational microlensing of gravitational waves*. (work in progress)
-  
+- *GWTC-4.0: Searches for gravitational-wave lensing signatures*. [arXiv, 2512.16347, 2025](https://arxiv.org/abs/2512.16347).
+
+- *GWTC-4.0: Updating the gravitational-wave transient catalog with observations from the first part of the fourth LIGO-Virgo-KAGRA observing run*. [arXiv, 2508.18082, 2025](https://arxiv.org/abs/2508.18082).
+
+- *GWTC-4.0: Methods for identifying and characterizing gravitational-wave transients*. [arXiv, 2508.18081, 2025](https://arxiv.org/abs/2508.18081).
+
+- *GWTC-4.0: An introduction to version 4.0 of the gravitational-wave transient catalog*. [Astrophys. J. Lett. 995, L18, 2025](https://iopscience.iop.org/article/10.3847/2041-8213/ae0c06), [arXiv, 2508.18080, 2025](https://arxiv.org/abs/2508.18080).
+
+
 Before delving into the world of GWs, I spent some time working with Dr. Sushan Konar, 
 at NCRA-TIFR, Pune, on _nulling pulsars_. The published work can be found here:
 - S. Konar, **U. Deka** \
