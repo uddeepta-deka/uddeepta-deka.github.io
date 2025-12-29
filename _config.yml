@@ -23,6 +23,7 @@ resume-url: https://github.com/uddeepta-deka/my_CV/releases/latest/download/resu
 # set `resume-embed` to true and host the PDF in your repo (recommended) at
 # a path like `assets/resume/resume.pdf`, then set `resume-url` to that path.
 # If `resume-embed` is true, the site will link to `/resume/` which embeds the PDF.
+# Needs to be fixed.
 resume-embed: true
 
 url: https://uddeepta-deka.github.io
@@ -80,6 +81,7 @@ pagination:
 # if you don't need "about" or "blog", comment them out below
 about: true
 research: true
+publications: true
 resources: true
 blog: true
 miscellaneous: false
