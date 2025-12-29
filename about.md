@@ -14,6 +14,6 @@ When I’m not doing research, you can find me on the badminton court, catching 
 
 I’m passionate about science outreach and love engaging with students of all ages. From organizing public talks and night sky observation sessions with ICTS’s in-house telescope to collaborating with the ICTS Outreach Team on activities for local schools, I strive to bridge the gap between academia and the broader community. Teaching and mentoring are close to my heart; I’ve guided an M.Sc. student on her thesis and helped out students at ICTS with term papers and projects in a number of graduate school courses particularly on GW.
 
-I try jot down my thoughts and musings on my [personal blog](https://megh-ud.blogspot.com/).—feel free to check them out here.
+I try jot down my thoughts and musings on my [personal blog](https://megh-ud.blogspot.com/). Please feel free to check them out.
 
 Thanks for stopping by, and I hope we can connect to share ideas, curiosity, and a passion for exploring the cosmos!
