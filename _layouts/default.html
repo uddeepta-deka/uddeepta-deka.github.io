@@ -28,6 +28,11 @@ layout: compress
             @media (prefers-color-scheme: dark) {
                 {% include style-dark.scss %}
             }
+
+            /* client-side override: apply dark stylesheet when [data-theme="dark"] is set on <html> */
+            [data-theme="dark"] {
+                {% include style-dark.scss %}
+            }
         {% endcapture %}
     {% elsif site.dark-theme %}
         {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
