@@ -17,9 +17,8 @@ dark-theme: auto
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: false
-# Place your resume PDF here so it can be embedded: assets/resume/resume.pdf
-resume-url: assets/resume/resume.pdf
+resume-external: true
+resume-url: https://github.com/uddeepta-deka/my_CV/releases/latest/download/resume.pdf
 # If you want the resume to be displayed in-browser instead of linked directly,
 # set `resume-embed` to true and host the PDF in your repo (recommended) at
 # a path like `assets/resume/resume.pdf`, then set `resume-url` to that path.

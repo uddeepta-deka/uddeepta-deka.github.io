@@ -12,18 +12,9 @@ permalink: /resume/
 {% endif %}
 
 <div class="resume-embed" style="min-height:80vh;">
-  {% if site['resume-external'] %}
-    {%- assign pdf_enc = pdf_path | uri_escape -%}
-    <!-- Use Google Docs Viewer to display an externally hosted PDF that sets attachment headers or denies framing -->
-    <iframe src="https://docs.google.com/gview?embedded=true&url={{ pdf_enc }}" width="100%" height="920" style="border: none;">
-    </iframe>
+  <object data="{{ pdf_path }}" type="application/pdf" width="100%" height="900">
+    <iframe src="{{ pdf_path }}" width="100%" height="900" style="border: none;"></iframe>
+  </object>
 
-    <p>If the PDF does not display, <a href="{{ pdf_path }}" target="_blank" rel="noopener">open or download the résumé</a>.</p>
-  {% else %}
-    <object data="{{ pdf_path }}" type="application/pdf" width="100%" height="900">
-      <iframe src="{{ pdf_path }}" width="100%" height="900" style="border: none;"></iframe>
-    </object>
-
-    <p>If the PDF does not display in your browser, <a href="{{ pdf_path }}" target="_blank" rel="noopener">click here to open or download the résumé</a>.</p>
-  {% endif %}
+  <p>If the PDF does not display in your browser, <a href="{{ pdf_path }}" target="_blank" rel="noopener">click here to open or download the résumé</a>.</p>
 </div>
