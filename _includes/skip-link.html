@@ -1,0 +1,26 @@
+<!-- Accessibility Skip Link -->
+<!-- Allows keyboard users to skip directly to main content -->
+<a href="#main-content" class="skip-link" aria-label="Skip to main content">
+    Skip to main content
+</a>
+
+<style>
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 9999;
+    border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 2px solid #f59e0b;
+    outline-offset: 2px;
+}
+</style>

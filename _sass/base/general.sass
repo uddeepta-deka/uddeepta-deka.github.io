@@ -1,66 +1,113 @@
 body, html
 	font-size: 62.5%
+	scroll-behavior: smooth
 
 body
-	font: 16px $fontSans
-	color: $alpha
-	background: $omega
+	font: 18px $fontSans
+	color: $text-secondary
+	background: $bg-primary
+	line-height: 1.7
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
 
 h1, h2, h3, h4
 	font-family: $fontSans
-	color: $beta
+	color: $text-primary
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizeLegibility
+	font-weight: $bold-font
+	line-height: 1.2
+	margin-bottom: $spacing-md
 
 h1
-	font-size: 3rem
-	letter-spacing: -1px
-	color: $beta
-	font-weight: 700
+	font-size: 3.5rem
+	letter-spacing: -1.5px
+	color: $text-primary
+	font-weight: $bold-font
+	
+	@media #{$mobile}
+		font-size: 2.5rem
+		letter-spacing: -1px
 
 h2
-	font-size: 2.2rem
+	font-size: 2.5rem
+	letter-spacing: -0.5px
+	font-weight: $bold-font
+	
+	@media #{$mobile}
+		font-size: 2rem
 
 h3
-	font-size: 2rem
+	font-size: 1.875rem
+	font-weight: $semibold-font
+	
+	@media #{$mobile}
+		font-size: 1.5rem
 
 h4
-	font-size: 1.6rem
+	font-size: 1.5rem
+	font-weight: $semibold-font
+	
+	@media #{$mobile}
+		font-size: 1.25rem
 
 a
-	color: $delta
-	text-decoration: underline
-	font-weight: $thin-font
+	color: $primary
+	text-decoration: none
+	font-weight: $medium-font
+	transition: color $transition-normal
+	border-bottom: 1px solid transparent
+	
+	&:hover
+		color: $primary-dark
+		border-bottom-color: $primary-dark
+	
+	&:focus
+		outline: 2px solid $primary
+		outline-offset: 2px
+		border-radius: $radius-sm
 
 p
-	line-height: 1.7
-	color: $alpha
-	font-weight: 300
-	margin-bottom: 20px
-	letter-spacing: 0.4px
+	line-height: 1.75
+	color: $text-secondary
+	font-weight: $normal-font
+	margin-bottom: $spacing-lg
+	letter-spacing: 0.2px
+	font-size: 1.125rem
 
 	@media #{$mobile}
-		letter-spacing: 0.2px
+		font-size: 1rem
+		letter-spacing: 0.1px
+		margin-bottom: $spacing-md
 
 strong
-	font-weight: 400
-	color: $zeta
+	font-weight: $semibold-font
+	color: $text-primary
 
 ul,
 ol
 	li
-		line-height: 2.4rem
-		font-weight: 300
-		color: $alpha
+		line-height: 2.2
+		font-weight: $normal-font
+		color: $text-secondary
+		margin-bottom: $spacing-sm
+		font-size: 1.125rem
+		
+		@media #{$mobile}
+			font-size: 1rem
 
 img,
 pre,
 iframe
 	max-width: 100%
 
-img,
+img
+	border-radius: $radius-lg
+	height: auto
+	display: block
+
 pre
-	border-radius: 4px
+	border-radius: $radius-md
 
 figcaption
 	position: relative
@@ -70,22 +117,28 @@ figcaption
 	margin: 0 auto
 	width: 100%
 	text-align: center
-	font-size: 1.3rem
-	color: $gama
-	font-weight: 300
+	font-size: 1.4rem
+	color: $text-tertiary
+	font-weight: $normal-font
 
 	@media #{$mobile}
 		font-size: 1.2rem
 
 blockquote
-	padding-left: 15px
-	border-left: 3px solid #eee
+	padding-left: $spacing-lg
+	border-left: 4px solid $primary
+	margin: $spacing-xl 0
+	color: $text-secondary
+	font-style: italic
+	background: $bg-secondary
+	padding: $spacing-lg
+	border-radius: $radius-md
 
 hr
 	border: none
-	height: 1px
-	margin: 40px auto
-	background: #eee
+	height: 2px
+	margin: $spacing-3xl auto
+	background: linear-gradient(to right, transparent, $border-color, transparent)
 	width: 100%
 
 figure.highlight
@@ -93,49 +146,53 @@ figure.highlight
 	margin: 0
 
 code
-	padding: 2px 3px
+	padding: 3px 6px
 	font-family: $fontMonospace
-	font-size: 12px
+	font-size: 0.875em
 	vertical-align: middle
-	background: #eee
-	border-radius: 2px
+	background: $bg-tertiary
+	border-radius: $radius-sm
+	color: $primary-dark
+	font-weight: $medium-font
 
 pre > code,
 tt
 	padding: 1px 0
 	font-family: $fontMonospace
-	font-size: 12px
-	line-height: 20px
-	background: $omega
-	border-radius: 2px
+	font-size: 0.875rem
+	line-height: 1.6
+	background: $bg-primary
+	border-radius: $radius-sm
 
 pre
 	box-sizing: border-box
-	margin: 0 0 1.75em 0
+	margin: 0 0 $spacing-xl 0
 	width: 100%
-	padding: 5px 10px
+	padding: $spacing-lg
 	font-family: $fontMonospace
-	font-size: 1.2rem
-	line-height: 2rem
+	font-size: 0.875rem
+	line-height: 1.6
 	overflow: auto
-	background: $omega
-	border: 1px solid $epsilon
-	border-radius: 2px
+	background: $bg-secondary
+	border: 1px solid $border-color
+	border-radius: $radius-md
+	box-shadow: $shadow-sm
 
 .wrapper-normal,
 .wrapper-large
 	height: 100%
 	width: 96%
 	margin: 0 auto
+	padding: 0 $spacing-md
 
 	@media #{$mobile}
-		width: 88%
+		width: 92%
 
 	@media #{$tablet}
-		width: 88%
+		width: 90%
 
 .wrapper-normal
-	max-width: 560px
+	max-width: 680px
 
 .wrapper-large
-	max-width: 810px
+	max-width: 920px

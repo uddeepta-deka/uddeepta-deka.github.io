@@ -1,0 +1,100 @@
+// Modern Animations & Transitions
+
+// Fade in animation
+@keyframes fadeIn
+    from
+        opacity: 0
+        transform: translateY(20px)
+    to
+        opacity: 1
+        transform: translateY(0)
+
+// Scale in animation
+@keyframes scaleIn
+    from
+        opacity: 0
+        transform: scale(0.95)
+    to
+        opacity: 1
+        transform: scale(1)
+
+// Slide in from left
+@keyframes slideInLeft
+    from
+        opacity: 0
+        transform: translateX(-30px)
+    to
+        opacity: 1
+        transform: translateX(0)
+
+// Pulse animation for CTAs
+@keyframes pulse
+    0%, 100%
+        transform: scale(1)
+    50%
+        transform: scale(1.05)
+
+// Apply animations to elements
+.header-home
+    animation: fadeIn 0.8s ease-out
+
+.nav-home
+    animation: fadeIn 0.8s ease-out 0.2s backwards
+
+.social-links
+    animation: fadeIn 0.8s ease-out 0.4s backwards
+
+.page
+    animation: fadeIn 0.6s ease-out
+
+.publication-card,
+.stat-card,
+.card
+    animation: fadeIn 0.6s ease-out backwards
+    
+    &:nth-child(1)
+        animation-delay: 0.1s
+    
+    &:nth-child(2)
+        animation-delay: 0.2s
+    
+    &:nth-child(3)
+        animation-delay: 0.3s
+    
+    &:nth-child(4)
+        animation-delay: 0.4s
+    
+    &:nth-child(5)
+        animation-delay: 0.5s
+
+// Smooth scroll
+html
+    scroll-behavior: smooth
+
+// Focus visible for accessibility
+:focus-visible
+    outline: 2px solid $primary
+    outline-offset: 2px
+    border-radius: $radius-sm
+
+// Selection color
+::selection
+    background: $primary
+    color: $bg-primary
+
+::-moz-selection
+    background: $primary
+    color: $bg-primary
+
+// Loading animation for images
+img
+    animation: fadeIn 0.4s ease-out
+
+// Hover effects on links in content
+.page a,
+.about a,
+.research a
+    transition: all $transition-normal
+    
+    &:not(.btn):hover
+        transform: translateX(2px)

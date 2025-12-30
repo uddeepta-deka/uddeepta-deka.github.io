@@ -1,4 +1,66 @@
 ---
 layout: page
 title: Home
+description: "Uddeepta Deka - Physicist specializing in gravitational-wave astrophysics and gravitational lensing. Ph.D. from ICTS-TIFR with published research on GW microlensing and black hole physics."
+keywords: "Uddeepta Deka, gravitational waves, gravitational lensing, microlensing, astrophysics, ICTS-TIFR, physics research"
 ---
+
+<!-- CTA Buttons -->
+<div class="btn-group">
+    <a href="{{ site.url }}/research" 
+       class="btn btn-primary btn-large" 
+       data-testid="view-research-btn"
+       aria-label="View research publications and papers">
+        <i class="fas fa-flask" aria-hidden="true"></i> View Research
+    </a>
+    {% if site.resume %}
+        <a href="{% if site['resume-external'] %}{{ site['resume-url'] }}{% else %}{{ site.url }}/{{ site['resume-url'] }}{% endif %}" 
+           class="btn btn-secondary btn-large" 
+           data-testid="download-cv-btn"
+           aria-label="Download curriculum vitae as PDF{% if site['resume-external'] %} (opens in new tab){% endif %}"
+           {% if site['resume-external'] %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            <i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV
+        </a>
+    {% endif %}
+</div>
+
+<!-- Quick Bio -->
+<div class="home-intro" style="text-align: center; max-width: 800px; margin: 3rem auto; padding: 2rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+    <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #0f172a;">About My Work</h2>
+    <p style="font-size: 1.125rem; line-height: 1.75; color: #334155; margin-bottom: 1rem;">
+        I'm a physicist specializing in <strong>gravitational-wave astrophysics</strong>, with a focus on gravitational lensing of these cosmic signals. 
+        I recently completed my Ph.D. at <a href="https://icts.res.in/" target="_blank" rel="noopener">ICTS-TIFR</a> under Prof. Parameswaran Ajith.
+    </p>
+    <p style="font-size: 1.125rem; line-height: 1.75; color: #334155;">
+        My research combines <strong>theoretical physics</strong>, <strong>computational modeling</strong>, and <strong>data analysis</strong> to explore how gravitational waves can reveal hidden aspects of the universe.
+    </p>
+</div>
+
+<!-- Research Highlights -->
+<div class="stats-grid" role="list" aria-label="Research credentials and expertise" style="margin-top: 3rem;">
+    <div class="stat-card" role="listitem" data-testid="research-stat-phd">
+        <div class="stat-number" aria-label="Degree: Doctor of Philosophy">Ph.D.</div>
+        <div class="stat-label">ICTS-TIFR</div>
+    </div>
+    <div class="stat-card" role="listitem" data-testid="research-stat-focus">
+        <div class="stat-number" aria-label="Research focus: Gravitational Waves">GW</div>
+        <div class="stat-label">Gravitational Waves</div>
+    </div>
+    <div class="stat-card" role="listitem" data-testid="research-stat-area">
+        <div class="stat-number" aria-label="Specialization: Microlensing">ML</div>
+        <div class="stat-label">Microlensing</div>
+    </div>
+</div>
+
+<!-- Research Areas Tags -->
+<div style="text-align: center; margin-top: 3rem;">
+    <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: #0f172a;">Research Areas</h3>
+    <div class="tags-container" role="list" aria-label="Research areas and specializations" style="justify-content: center;">
+        <span class="tag" role="listitem">Gravitational Waves</span>
+        <span class="tag" role="listitem">Gravitational Lensing</span>
+        <span class="tag" role="listitem">Microlensing</span>
+        <span class="tag" role="listitem">Astrophysics</span>
+        <span class="tag" role="listitem">Computational Modeling</span>
+        <span class="tag" role="listitem">Data Analysis</span>
+    </div>
+</div>

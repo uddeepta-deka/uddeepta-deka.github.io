@@ -1,18 +1,72 @@
-$fontSans: "Helvetica Neue", Helvetica, Arial, sans-serif
-$fontMonospace: "Consolas", Liberation Mono, Menlo, Courier, monospace
+$fontSans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+$fontMonospace: "JetBrains Mono", "Consolas", Liberation Mono, Menlo, Courier, monospace
 
-$alpha: #666
-$beta: #222
-$gama: #aaa
-$delta: #4b0082
-$epsilon: #ededed
-$omega: #fff
-$zeta: #000
-$kappa: #27f36a26
+// Modern color palette - Scientific & Professional
+$primary: #2563eb        // Modern blue - trust, science
+$primary-dark: #1e40af   // Darker blue for hover states
+$secondary: #0ea5e9      // Sky blue - clarity
+$accent: #f59e0b         // Amber - highlights, CTAs
+$accent-hover: #d97706   // Darker amber for hover
 
+// Neutrals - Slate palette (modern, softer than pure black)
+$text-primary: #0f172a   // Slate 900 - headings
+$text-secondary: #334155 // Slate 700 - body text
+$text-tertiary: #64748b  // Slate 500 - muted text
+$bg-primary: #ffffff     // Pure white
+$bg-secondary: #f8fafc   // Slate 50 - subtle backgrounds
+$bg-tertiary: #f1f5f9    // Slate 100 - cards, sections
+
+// Legacy variable mappings (for backward compatibility)
+$alpha: $text-secondary
+$beta: $text-primary
+$gama: $text-tertiary
+$delta: $primary
+$epsilon: $bg-tertiary
+$omega: $bg-primary
+$zeta: $text-primary
+$kappa: rgba(37, 99, 235, 0.05)
+
+// Borders & Dividers
+$border-color: #e2e8f0  // Slate 200
+$border-light: #f1f5f9  // Slate 100
+
+// Shadows (modern, subtle)
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
+
+// Typography
 $thin-font: 300
+$normal-font: 400
+$medium-font: 500
+$semibold-font: 600
+$bold-font: 700
 
-$mobile: "only screen and (max-width: 400px)"
-$tablet: "only screen and (min-width: 400px) and (max-width: 1050px)"
+// Spacing scale (consistent spacing)
+$spacing-xs: 0.25rem   // 4px
+$spacing-sm: 0.5rem    // 8px
+$spacing-md: 1rem      // 16px
+$spacing-lg: 1.5rem    // 24px
+$spacing-xl: 2rem      // 32px
+$spacing-2xl: 3rem     // 48px
+$spacing-3xl: 4rem     // 64px
+
+// Breakpoints (modern, mobile-first)
+$mobile: "only screen and (max-width: 640px)"
+$tablet: "only screen and (min-width: 641px) and (max-width: 1024px)"
+$desktop: "only screen and (min-width: 1025px)"
 $above: "only screen and (min-width: 780px)"
 $below: "only screen and (max-width: 780px)"
+
+// Border radius
+$radius-sm: 0.25rem    // 4px
+$radius-md: 0.375rem   // 6px
+$radius-lg: 0.5rem     // 8px
+$radius-xl: 0.75rem    // 12px
+$radius-full: 9999px   // Fully rounded
+
+// Transitions
+$transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1)
+$transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1)
+$transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1)

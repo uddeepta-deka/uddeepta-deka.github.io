@@ -2,8 +2,29 @@
 title: Uddeepta Deka
 bio: I work towards charting the hidden landscapes of the universe through gravitational-wave signals 
 
-# twitter summary info
-description: Personal website
+# SEO - Enhanced description for search engines
+description: >-
+  Uddeepta Deka - Physicist specializing in gravitational-wave astrophysics and gravitational lensing. 
+  Ph.D. from ICTS-TIFR, published research on GW microlensing, black hole physics, and dark matter constraints.
+
+# SEO - Keywords for search engines
+keywords: >-
+  Uddeepta Deka, gravitational waves, gravitational lensing, microlensing, 
+  astrophysics, ICTS-TIFR, physics, GW astrophysics, black holes, dark matter, 
+  computational physics, data analysis
+
+# Author info for SEO
+author: Uddeepta Deka
+locale: en_US
+
+# Social media image (Open Graph / Twitter Card)
+# Create a professional preview image (1200x630px recommended)
+og_image: assets/images/social-preview.jpg  # Create this image!
+
+# Twitter Card settings
+twitter:
+  username: uddeepta_
+  card: summary_large_image
 
 # if it's an external image, update below for true
 # better with square images

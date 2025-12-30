@@ -1,0 +1,90 @@
+// Modern Button Styles
+.btn
+    display: inline-block
+    padding: $spacing-md $spacing-xl
+    font-size: 1.125rem
+    font-weight: $medium-font
+    text-decoration: none
+    border-radius: $radius-lg
+    transition: all $transition-normal
+    cursor: pointer
+    border: 2px solid transparent
+    text-align: center
+    font-family: $fontSans
+    
+    &:focus
+        outline: 3px solid $primary
+        outline-offset: 3px
+        box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2)
+    
+    // Remove outline for mouse users
+    &:focus:not(:focus-visible)
+        outline: none
+        box-shadow: none
+        
+    // Restore outline for keyboard users
+    &:focus-visible
+        outline: 3px solid $primary
+        outline-offset: 3px
+        box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2)
+
+.btn-primary
+    background: $primary
+    color: $bg-primary
+    border-color: $primary
+    box-shadow: $shadow-md
+    
+    &:hover
+        background: $primary-dark
+        border-color: $primary-dark
+        transform: translateY(-2px)
+        box-shadow: $shadow-lg
+        color: $bg-primary
+    
+    &:focus-visible
+        outline-color: $primary-dark
+        box-shadow: 0 0 0 4px rgba(30, 64, 175, 0.3)
+
+.btn-secondary
+    background: $bg-primary
+    color: $primary
+    border-color: $primary
+    
+    &:hover
+        background: $primary
+        color: $bg-primary
+        transform: translateY(-2px)
+        box-shadow: $shadow-md
+
+.btn-outline
+    background: transparent
+    color: $text-primary
+    border-color: $border-color
+    
+    &:hover
+        background: $bg-secondary
+        border-color: $primary
+        color: $primary
+        transform: translateY(-1px)
+
+.btn-large
+    padding: $spacing-lg $spacing-2xl
+    font-size: 1.25rem
+
+.btn-small
+    padding: $spacing-sm $spacing-lg
+    font-size: 1rem
+
+// CTA Button Group
+.btn-group
+    display: flex
+    gap: $spacing-md
+    flex-wrap: wrap
+    justify-content: center
+    margin: $spacing-xl 0
+    
+    @media #{$mobile}
+        flex-direction: column
+        
+        .btn
+            width: 100%

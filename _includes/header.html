@@ -5,19 +5,29 @@
 %}{% assign showHeader = true %}{% endif %}
 
 {% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
+    <header class="header-home {% if site.animation %}animated{% endif %}" role="banner" aria-label="Site header">
         {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            <a class="link" href="{{ site.url }}/about" aria-label="View profile and about information">
+                <img class="selfie" 
+                     alt="Profile photo of {{ site.title }}, physicist specializing in gravitational wave astrophysics" 
+                     src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}"
+                     width="160"
+                     height="160"
+                     loading="eager" />
             </a>
         {% else %}
             <span class="link">
-                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                <img class="selfie" 
+                     alt="Profile photo of {{ site.title }}, physicist specializing in gravitational wave astrophysics" 
+                     src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}"
+                     width="160"
+                     height="160"
+                     loading="eager" />
             </span>
         {% endif %}
 
         <h1 class="title">{{ site.title }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
+        <p class="description">{{ site.bio }}</p>
 
         {% include social-links.html %}
     </header>

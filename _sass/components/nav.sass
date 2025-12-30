@@ -3,45 +3,113 @@
     > .list
         list-style: none
         margin: 0
-        padding: 0 13px 0
+        padding: 0
 
         > .item
             display: inline-block
-            margin: 0 12px
+            margin: 0 $spacing-sm
 
         > .item > .link
             display: inline-block
-            font-weight: $thin-font
-            font-size: 1.4rem
-            padding: 20px 10px
+            font-weight: $medium-font
+            font-size: 1.125rem
+            padding: $spacing-md $spacing-lg
             text-decoration: none
+            color: $text-secondary
+            border-radius: $radius-md
+            transition: all $transition-normal
+            border-bottom: 2px solid transparent
+            
+            &:hover
+                color: $primary
+                background: $bg-secondary
+                transform: translateY(-1px)
+                border-bottom-color: $primary
+            
+            // Enhanced focus state for keyboard navigation
+            &:focus
+                outline: 3px solid $primary
+                outline-offset: 3px
+                box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2)
+                
+            // Remove outline for mouse users
+            &:focus:not(:focus-visible)
+                outline: none
+                box-shadow: none
+                
+            // Restore outline for keyboard users
+            &:focus-visible
+                outline: 3px solid $primary
+                outline-offset: 3px
+                box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2)
+            
+            // Active page indicator
+            &[aria-current="page"]
+                color: $primary
+                background: $bg-secondary
+                border-bottom-color: $primary
+                font-weight: $semibold-font
+                position: relative
+                
+                &::after
+                    content: ''
+                    position: absolute
+                    left: 50%
+                    bottom: 0
+                    transform: translateX(-50%)
+                    width: 80%
+                    height: 3px
+                    background: $primary
+                    border-radius: $radius-sm $radius-sm 0 0
 
 .nav
     position: absolute
     right: 0
     top: 0
-
-    > .list
-        padding: 0 13px 0
-
-        > .item > .link
-            font-size: 1.4rem
-            padding: 20px 10px
-
-.nav-home
-    margin-top: 40px
-    text-align: center
+    padding: $spacing-lg
 
     > .list
         padding: 0
 
         > .item > .link
-            font-size: 2rem
-            padding: 7px 15px
+            font-size: 1rem
+            padding: $spacing-sm $spacing-md
+            
+            @media #{$mobile}
+                padding: $spacing-sm
+                font-size: 0.9rem
+
+.nav-home
+    margin-top: $spacing-xl
+    text-align: center
+
+    > .list
+        padding: 0
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        gap: $spacing-sm
+
+        > .item > .link
+            font-size: 1.25rem
+            padding: $spacing-md $spacing-xl
             margin: 0
-            border-radius: 4%
-            transition: all .4s ease-in-out
-            width: 70px
+            border-radius: $radius-lg
+            transition: all $transition-normal
+            min-width: 100px
+            font-weight: $medium-font
+            box-shadow: $shadow-sm
+            background: $bg-primary
+            border: 1px solid $border-light
 
             &:hover
-                color: $alpha
+                color: $bg-primary
+                background: $primary
+                box-shadow: $shadow-md
+                transform: translateY(-2px)
+                border-color: $primary
+                
+            @media #{$mobile}
+                font-size: 1.125rem
+                padding: $spacing-sm $spacing-lg
+                min-width: 80px
