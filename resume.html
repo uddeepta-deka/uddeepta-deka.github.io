@@ -4,17 +4,18 @@ title: Résumé
 permalink: /resume/
 ---
 
-{% assign pdf_src = site['resume-external'] | default: false %}
 {% if site['resume-external'] %}
   {% assign pdf_path = site['resume-url'] %}
 {% else %}
-  {% assign pdf_path = site.url | append: '/' | append: site['resume-url'] %}
+  {% assign pdf_path = site['resume-url'] | relative_url %}
 {% endif %}
+{% assign pdf_version = site.time | date: '%s' %}
+{% assign pdf_embed_path = pdf_path | append: '?v=' | append: pdf_version | append: '#view=FitH&toolbar=1' %}
 
 <div class="resume-embed" style="min-height:80vh;">
-  <object data="{{ pdf_path }}" type="application/pdf" width="100%" height="900">
-    <iframe src="{{ pdf_path }}" width="100%" height="900" style="border: none;"></iframe>
+  <object data="{{ pdf_embed_path }}" type="application/pdf" width="100%" height="900">
+    <iframe src="{{ pdf_embed_path }}" width="100%" height="900" style="border: none;" title="Résumé of {{ site.title }}"></iframe>
   </object>
 
-  <p>If the PDF does not display in your browser, <a href="{{ pdf_path }}" target="_blank" rel="noopener">click here to open or download the résumé</a>.</p>
+  <p>If the PDF does not display in your browser, <a href="{{ pdf_path }}" target="_blank" rel="noopener">open the résumé in a new tab</a>.</p>
 </div>
